@@ -11,7 +11,7 @@ export const createNewUser = async (email, userId) => {
     },
   })
   if (existingUser) {
-    return console.log('user exists')
+    return
   }
 
   await prisma.user.create({
@@ -83,7 +83,6 @@ export const getBalance = async (userId) => {
       transactions: true,
     },
   })
-  console.log(user.balance, 'aaaaaa')
   return user.balance
 }
 
