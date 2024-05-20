@@ -1,11 +1,17 @@
 import TransactionComponent from '@/components/TransactionComponent'
-import { auth } from '@clerk/nextjs/server'
+import { auth, currentUser } from '@clerk/nextjs/server'
 
-const PayPage = () => {
+const PayPage = async () => {
+  const user = await currentUser()
+  const userEmail = user.emailAddresses[0].emailAddress
   const { userId } = auth()
   return (
     <>
-      <TransactionComponent type='payment' userId={userId} />
+      <TransactionComponent
+        type='payment'
+        userId={userId}
+        userEmail={userEmail}
+      />
     </>
   )
 }
