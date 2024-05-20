@@ -9,7 +9,7 @@ const links = [
   { href: '/deposit', label: 'Deposit', icon: <MdOutlinePayments /> },
   { href: '/pay', label: 'pay', icon: <FaMoneyBillTrendUp /> },
   { href: '/transactions', label: 'transactions', icon: <GrTransaction /> },
-  { href: '/withdrawal', label: 'withdrawal', icon: <FaHandHoldingUsd /> },
+  // { href: '/withdrawal', label: 'withdrawal', icon: <FaHandHoldingUsd /> },
 ]
 
 export default links

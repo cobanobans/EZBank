@@ -21,7 +21,7 @@ const Currencies = async ({ userId }) => {
   return (
     <>
       <div className='flex flex-col items-center lg:items-start gap-3 w-full'>
-        <div className='flex flex-col w-full lg:flex-row  lg:justify-start lg:items-center lg:gap-0 gap-10 md:pr-5'>
+        <div className='flex flex-col w-full lg:flex-row  lg:justify-center items-center lg:items-center lg:gap-20 gap-10 md:pr-5'>
           <div className='w-60'>
             <ChartComponent userId={userId} />
           </div>

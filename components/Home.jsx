@@ -16,7 +16,7 @@ const Home = async ({ userId }) => {
       <div className='w-full'>
         {/* <h1 className='hidden lg:flex capitalize text-2xl h-fit'>home</h1> */}
         {/* ------------ */}
-        <div className='w-full p-5 border-2 shadow-2xl bg-base-200 rounded-xl'>
+        <div className='w-full p-5 lg:border-2 shadow-2xl bg-base-200 lg:rounded-xl'>
           <Currencies userId={userId} />
         </div>
         {/* ----------- */}
