@@ -21,7 +21,7 @@ const HomePage = () => {
             Convenient, secure, and user-friendly online banking app for
             seamless financial management anytime, anywhere.
           </p>
-          <Link href='/home' className='btn btn-secondary'>
+          <Link href='/home' className='btn btn-accent'>
             Get Started
           </Link>
         </div>
