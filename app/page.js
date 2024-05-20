@@ -14,7 +14,7 @@ const HomePage = () => {
       <div className='hero-overlay bg-opacity-60'></div>
       <div className='hero-content text-center text-neutral-content'>
         <div className='max-w-md'>
-          <h1 className='mb-7 text-6xl text-primary font-bold leading-11'>
+          <h1 className='mb-7 text-6xl text-accent font-bold leading-11'>
             EZ<span className='text-slate-400'>Bank</span>
           </h1>
           <p className='mb-5 text-xl'>
