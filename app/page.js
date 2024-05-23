@@ -21,9 +21,18 @@ const HomePage = () => {
             Convenient, secure, and user-friendly online banking app for
             seamless financial management anytime, anywhere.
           </p>
-          <Link href='/home' className='btn btn-accent'>
+          <Link href='/home' className='btn btn-accent mb-5'>
             Get Started
           </Link>
+          <div className='bg-slate-300 text-slate-400 rounded-xl'>
+            <h2 className='text-2xl '>Important Note:</h2>
+            <p className='text-xl'>
+              Test account:
+              <span className='text-secondary'> djolej17@gmail.com</span> and
+              password: <span className='text-secondary'>DjordjeTest</span>
+            </p>
+            <p className='text-accent'>or create your own Account.</p>
+          </div>
         </div>
       </div>
     </div>
