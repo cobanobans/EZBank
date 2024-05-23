@@ -42,7 +42,7 @@ const NewTransactionForm = ({ type, userEmail, userId }) => {
   }
 
   return (
-    <div className='flex flex-col  bg-base-300 py-20 px-10 rounded-xl '>
+    <div className='flex flex-col  bg-base-300 py-20 px-2 rounded-xl '>
       <div className=' bg-accent rounded-t-xl py-2'>
         <span className='text-white pl-5'>
           {type === 'deposit'
