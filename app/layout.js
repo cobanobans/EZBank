@@ -14,6 +14,9 @@ export default function RootLayout({ children }) {
   return (
     <ClerkProvider>
       <html lang='en'>
+        <head>
+          <link rel='icon' href='/favicon.png' type='image' />
+        </head>
         <body className={inter.className}>
           <Toaster />
           {children}
