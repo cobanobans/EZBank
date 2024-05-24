@@ -1,4 +1,4 @@
-Note: Please use following credentials to login: djolej17@gmail.com (email) and DjordjeTest(password). Or create your own account.
+Note: Please use following credentials to login: djolej17@gmail.com (email) and DjordjeTest(password). Or create your own account, which is easy and fast, just provide email and password.
 
 Also in order to make a payment, user has to enter valid email address (one of the registered users).
 
