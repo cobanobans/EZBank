@@ -1,3 +1,15 @@
+Note: Please use following credentials to login: djolej17@gmail.com (email) and DjordjeTest(password). Or create your own account.
+
+Also in order to make a payment, user has to enter valid email address (one of the registered users).
+
+Here is the list of available emails: 1danilojocic1@gmail.com, djolej17@gmail.com;
+
+There is no option to enter app without logging in, this is because components and other crucial information displayed in components depend on user authentication.
+
+I have deployed my Prisma managed database to Render and actions that interact with the database also depend on user authentication.
+
+Actions that interact with database (which is )
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
