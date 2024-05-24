@@ -8,6 +8,8 @@ There is no option to enter app without logging in, this is because components a
 
 I have deployed my Prisma managed database to Render and actions that interact with the database also depend on user authentication.
 
+Clerk's auth and currentUser were at first used inside actions, which later created bug. In order to debug it, I had to remove auth and currentUser imports from actions, and pass them through component's props from page. The better solution which doesn't create any bugs will be found and implemented soon.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
