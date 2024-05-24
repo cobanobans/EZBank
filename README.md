@@ -8,8 +8,6 @@ There is no option to enter app without logging in, this is because components a
 
 I have deployed my Prisma managed database to Render and actions that interact with the database also depend on user authentication.
 
-Actions that interact with database (which is )
-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
