@@ -63,6 +63,7 @@ const NewTransactionForm = ({ type, userEmail, userId }) => {
               name='recipient'
               defaultValue={email}
               onChange={handleEmail}
+              list='registered-emails'
               required
             ></input>
           ) : null}
@@ -108,6 +109,11 @@ const NewTransactionForm = ({ type, userEmail, userId }) => {
             </button>
           )}
         </div>
+        <datalist id='registered-emails'>
+          <option value='1danilojocic1@gmail.com' />
+          <option value='vukasinpetrovicvukasin@gmail.com' />
+          <option value='bogunovicvisnja98@gmail.com' />
+        </datalist>
       </form>
     </div>
   )
