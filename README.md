@@ -1,14 +1,28 @@
+## Note
+
 Note: Please use following credentials to login: djolej17@gmail.com (email) and DjordjeTest(password). Or create your own account, which is easy and fast, just provide email and password.
 
-Also in order to make a payment, user has to enter valid email address (one of the registered users).
+Also in order to make a payment, user has to enter valid email address (one of the registered users). Available emails of registered users will be displayed in the input field when clicked.
 
-Here is the list of available emails: 1danilojocic1@gmail.com, djolej17@gmail.com;
+Here is the list of available emails if needed: 1danilojocic1@gmail.com, djolej17@gmail.com;
 
 There is no option to enter app without logging in, this is because components and other crucial information displayed in components depend on user authentication.
+
+<!-- ___________________ -->
+
+## Database and Auth
 
 I have deployed my Prisma managed database to Render and actions that interact with the database also depend on user authentication.
 
 Clerk's auth and currentUser were at first used inside actions, which later created bug. In order to debug it, I had to remove auth and currentUser imports from actions, and pass them through component's props from page. The better solution which doesn't create any bugs will be found and implemented soon.
+
+## Home Page
+
+Users can see their balance on the home page and on the transactions page. On the home page, there is a chart displaying statistics and visually describing previous transactions for the current month.
+
+Additionally, the home page features three fields that display the user's balance in three different currencies, handled through a currency API that checks for the latest rates.
+
+## Deposit page
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
