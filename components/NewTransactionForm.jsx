@@ -110,8 +110,8 @@ const NewTransactionForm = ({ type, userEmail, userId }) => {
           )}
         </div>
         <datalist id='registered-emails'>
-          <option value='1danilojocic1@gmail.com' />
-          <option value='vukasinpetrovicvukasin@gmail.com' />
+          {/* <option value='1danilojocic1@gmail.com' />
+          <option value='vukasinpetrovicvukasin@gmail.com' /> */}
           <option value='bogunovicvisnja98@gmail.com' />
         </datalist>
       </form>
