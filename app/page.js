@@ -28,8 +28,11 @@ const HomePage = () => {
             <h2 className='text-2xl '>Important Note:</h2>
             <p className='text-xl'>
               Test account:
-              <span className='text-secondary'> djolej17@gmail.com</span> and
-              password: <span className='text-secondary'>DjordjeTest</span>
+              <span className='text-secondary'>
+                {' '}
+                djolej17@gmail.com ---
+              </span>{' '}
+              and password: <span className='text-secondary'>DjordjeTest</span>
             </p>
             <p className='text-accent'>or create your own Account.</p>
           </div>
